@@ -23,7 +23,7 @@
  
 2. STORE CHILDREN in priority queue based on distance to goal, closest first;
  
-3. SELECT CLOSEST child and REPEAT until goal reached or no more children .
+3. SELECT CLOSEST child and REPEAT until goal reached or no more children.
 
 
 ## Implementing A* Algorithm In Python
@@ -32,8 +32,7 @@
 First of all import PriorityQueue from queue. then I have to define a class named as State. This class is basically the base class.
 
 ### Creating Sub Class
-Create a subclass that will contain two methods  
-#### GetDistance() and CreateChildren( ) method. 
+Create a subclass that will contain two methods GetDistance() and CreateChildren( ) method. 
 
 ### Creating A_Star_Solver Sub Class
 Create a class where the real magic would be happened. 
